@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scss/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Inter+Tight:ital,wght@1,600&family=Tienne:wght@400;700;900&family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Programming</title>
+</head>
+
+<body>
+    <div class=" container">
+        <main>
+            <section class="mainvisual">
+                <h1>
+                    最短3ヶ月で<br>
+                    プログラミング習得<br>
+                    あなたの理想の働き方へ
+                </h1>
+                <div class="inner">
+                    <img class="programming_text1" src="img/programming_text1.png" alt="無料配布中">
+                    <img class="programming_text2" src="img/programming_text2.png" alt="プログラミング攻略テキスト">
+                </div>
+            </section>
+            <section class="achievement">
+                <h2>
+                    受講生の実績
+                </h2>
+                <div class="wrapper">
+                    <ul class="lists">
+                        <li class="list detail">
+                            <img class="Polygon" src="img/Polygon.jpg" alt="">
+                            <div class="summary">
+                                <img class="icon" src="img/yuriko.png" alt="ゆりこさん">
+                                <h3>ゆりこ<span>さん/29歳/会社員</span></h3>
+                                <p>
+                                    [学習目的]<br>
+                                    子供が生まれてから、時間に<br>
+                                    融通がきく仕事ができたらいいな思い、
+                                    副業から始めてフリーランスになりたいと
+                                    思って始めました。
+                                </p>
+                                <button class="view-btn toggleTextButton" id="toggleTextButton">
+                                    <span class="displayText" id="displayText">＋ その他作品集を見る</span>
+                                </button>
+                            </div>
+                            <div class="answer">
+                                <img class="LP-image1" src="img/LP_item1.png" alt="作品1">
+                            </div>
+                        </li>
+                        <li class="list detail">
+                            <img class="Polygon" src="img/Polygon.jpg" alt="">
+                            <div class="summary">
+                                <img class="icon" src="img/kasumi.png" alt="かすみさん">
+                                <h3>かすみ<span>さん/29歳/会社員</span></h3>
+                                <p>
+                                    [学習目的]<br>
+                                    自宅で仕事ができるとこに魅力を<br>
+                                    感じて、副業で稼げたいいなと思い、<br>
+                                    始めました。
+                                </p>
+                                <button class="view-btn toggleTextButton">
+                                    <span class="displayText">＋ その他作品集を見る</span>
+                                </button>
+                            </div>
+                            <div class="answer">
+                                <img class="LP-image1" src="img/LP_item2.png" alt="作品2">
+                            </div>
+                        </li>
+                        <li class="list detail">
+                            <img class="Polygon" src="img/Polygon.jpg" alt="">
+                            <div class="summary">
+                                <img class="icon" src="img/manato.png" alt="まなとさん">
+                                <h3>まなと<span>さん/29歳/営業</span></h3>
+                                <p>
+                                    [学習目的]<br>
+                                    転職に役立つスキルを磨くために、<br>
+                                    プログラミングを始めようと思いました。
+                                </p>
+                                <button class="view-btn toggleTextButton" id="toggleTextButton">
+                                    <span class="displayText" id="displayText">＋ その他作品集を見る</span>
+                                </button>
+                            </div>
+                            <div class="answer horizontal">
+                                <img src="img/LP_item5.png" alt="作品3">
+                            </div>
+                        </li>
+                    </ul>
+                    <p class="bubble">＼　プログラミングをより効率的に学習しよう　／</p>
+                    <button class="line-btn">
+                        <span>LINE追加はこちら</span>
+                        <img src="img/Arrow 1.svg" alt="">
+                    </button>
+                </div>
+            </section>
+            <section class="trouble">
+                <div class="wrapper">
+                    <h2 class="sec-title-bg">こんな悩みはありませんか？</h2>
+                </div>
+                <ul class="trouble-lists">
+                    <li class="trouble-list">
+                        <p class="balloon">進んでいる感覚がしない・・</p>
+                        <img src="img/pohot1.png" alt=">進んでいる感覚がしない">
+                        <div class="text-area">
+                            <p class="text-area-1">
+                                プログラミングの学習を始めた最初の方は、
+                                新しい挑戦で全く知らないことの勉強で進んでる感覚はあった。
+                            </p>
+                            <p class="text-area-1">
+                                けど、<br>
+                                学習が進むにつれて難しくなっていき、
+                                なかなか思うように進まない…
+                            </p>
+                            <p class="text-area-2">
+                                <span>
+                                    「本当にこのままでいいのかなぁ…」
+                                </span>
+                                <br>
+                                <span>
+                                    「私に稼げるようになれるのか…不安…」
+                                </span>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="trouble-list">
+                        <p class="balloon">わからない所が解決できない</p>
+                        <img src="img/pohot2.png" alt="わからない所が解決できない">
+                        <div class="text-area">
+                            <p class="text-area-1">
+                                学習が進んでいくうちにわからない所が出てきたけど、ネットで調べても本を読んでも解決できない。。
+                            </p>
+                            <p class="text-area-1">
+                                解決できないままその日の学習は終わり、
+                                翌日わからない所からのスタート…
+                            </p>
+                            <p class="text-area-2">
+                                <span>
+                                    「解決できなくてもう嫌だ、、」
+                                </span>
+                                <br>
+                                <span>
+                                    「プログラミング向いてないのかも…」
+                                </span>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="trouble-list">
+                        <p class="balloon">モチベーションが続かない</p>
+                        <img src="img/pohot3.png" alt="モチベーションが続かない">
+                        <div class="text-area">
+                            <p class="text-area-1">
+                                「心機一転新しい挑戦を頑張るぞ！」<br>
+                                って自分で決断して<br>
+                                プログラミング学習を始めたけど、
+                            </p>
+                            <p class="text-area-1">
+                                わからない所が解決できないし、<br>
+                                学習が進んでる感覚もしない、<br>
+                                稼げるようになるかも不安。
+                            </p>
+                            <p class="text-area-1">
+                                1人でその不安を抱えて、相談できる人もいない…
+                            </p>
+                            <p class="text-area-2">
+                                <span>
+                                    「もういっそのこと辞めてしまいたい…」
+                                </span>
+                                <br>
+                                <span>
+                                    「なんで私こんなに頑張ってるのに…」
+                                </span>
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="text-area2">
+                    <p class="text-area2-1">
+                        このような状況になってしまい、<br>
+                        <span class="num">9</span>割以上の方が挫折して諦めてしまいます。
+                    </p>
+                    <p class="text-area2-2">
+                        その根底には、<br>
+                        ある<span class="red">“<span class="num">3</span>つの原因”</span>があるんです。
+                    </p>
+                </div>
+            </section>
+            <section class="three-cause">
+                <div class="wrapper">
+                    <h2>主な<span>3</span>つの挫折原因</h2>
+                    <ul>
+                        <li>
+                            <h3>正しい学習方法を知らない</h3>
+                            <img src="img/cause1.png" alt="正しい学習方法を知らない">
+                            <div class="text">
+                                <p>
+                                    プログラミングだけでなく<br>
+                                    何かのスキル習得には、正しい・近道になる習得方法があります。
+                                </p>
+                                <p>
+                                    プログラミングで結果が出る人は、その人の頭が良かった、向いてた、能力があった。
+                                    なんてものは別に関係ありません。
+                                </p>
+                                <p>
+                                    <span>
+                                        正しい学習方法を知ってたかどうか』<br>
+                                    </span>
+                                    だけです。早く気付いた者勝ちです。
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <h3>スキル習得の基準が不明確</h3>
+                            <img src="img/cause2.png" alt="スキル習得の基準が不明確">
+                            <div class="text">
+                                <p>
+                                    プログラミングで案件獲得するという<br>
+                                    目標は立てたけど、
+                                </p>
+                                <p>
+                                    <span>
+                                        『案件獲得するために<br>
+                                    </span>
+                                    <span>
+                                        どのくらいのスキルが必要なのか』<br>
+                                    </span>
+                                    は曖昧・知らない方が多いです。
+                                </p>
+                                <p>
+                                    だから「進んでる感覚がしない」<br>
+                                    「案件獲得できるか不安」という<br>
+                                    悩みを抱えてしまいモチベが下がることも…
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <h3>一人でやってしまっている</h3>
+                            <img src="img/cause3.png" alt="正しい学習方法を知らない">
+                            <div class="text">
+                                <p>
+                                    上の悩みでお伝えした<br>
+                                    「わからない所が解決できない」<br>
+                                    「モチベーションが続かない」は<br>
+                                    だいたいはこれが原因です。
+                                <p>
+                                    <span>
+                                        1人でやってしまうのは<br>
+                                    </span>
+                                    <span>
+                                        本当におすすめしません。
+                                    </span>
+                                </p>
+                                <p>
+                                    時間もお金も労力も<br>
+                                    無駄になってしまうからです。
+                                </p>
+                                <p>
+                                    <span>
+                                        一緒に勉強する仲間や教えてくれるコーチ<br>
+                                    </span>
+                                    のような人が新しい挑戦には必須です。
+                                </p>
+                                <p>
+                                    それもなるべく学習開始の早い段階から<br>
+                                    必須です。
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="solution">
+                <h2>これらを解決
+                    <span class="mark1">!</span><span class="mark2">!</span>
+                </h2>
+                <div class="read-text">
+                    <p>
+                        テキスト総〇〇ページ｜動画〇〇分<br>
+                        何文字｜半年かけて作った
+                    </p>
+                    <p>
+                        <span>
+                            『0→1攻略テキスト』<br>
+                        </span>
+                        にまとめました。
+                    </p>
+                    <img class="marker" src="img/marker.png" alt="">
+                    <img src="img/Frame 598.png" alt="テキスト">
+                    <img class="material1" src="img/kirakira1.png" alt="">
+                    <img class="material2" src="img/kirakira2.png" alt="">
+                </div>
+                <div class="wrapper">
+                    <p class="bubble">＼　プログラミングをより効率的に学習しよう　／</p>
+                    <button class="line-btn">
+                        <span>LINE追加はこちら</span>
+                        <img src="img/Arrow 1.svg" alt="矢印">
+                    </button>
+                    <div class="text-summary">
+                        <h3>テキスト内容まとめ</h3>
+                        <ol>
+                            <li>
+                                <span>&#9312;</span>
+                                【環境構築がこの1本で全てがわかる】<br>環境構築の全手順まとめ動画（25分）
+                            </li>
+                            <li>
+                                <span>&#9313;</span>
+                                【頻出順！全108個】<br>HTMLで使うタグ完全解説PDF
+                            </li>
+                            <li>
+                                <span>&#9314;</span>
+                                【頻出順！全249個】<br>CSSで使うプロパティ完全解説PDF
+                            </li>
+                            <li>
+                                <span>&#9315;</span>
+                                【超頻出！Web制作では欠かせない】<br>jQuery神コピペシート
+                            </li>
+                            <li>
+                                <span>&#9316;</span>
+                                【知らないと損する！】<br>模写コーディングのやり方徹底解剖動画
+                                （⚪︎分）
+                            </li>
+                            <li>
+                                <span>&#9317;</span>
+                                【9割が知らない！】<br>模写コーディングの７つの極意
+                            </li>
+                            <li>
+                                <span>&#9318;</span>
+                                【9割が知らない！】<br>模写コーディングの７つの極意
+                            </li>
+                            <li>
+                                <span>&#9319;</span>
+                                【本当は教えたくない！】<br>案件獲得、稼ぎ方の教科書
+                            </li>
+                            <li>
+                                <span>&#9320;</span>
+                                【最速でスキル習得！】<br>プログラミング完全攻略ロードマップ
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div class="contents-summary">
+                        <ul>
+                            <li>
+                                <h3>
+                                    <span class="num">01</span>
+                                    <br>
+                                    <span class="small">【環境構築がこの１本で全てがわかる】</span>
+                                    <br>
+                                    環境構築の全手順まとめ動画
+                                    <img class="emphasis-left" src="img/Group 221.png" alt="">
+                                    <img class="emphasis-right" src="img/Group 222.png" alt="">
+                                </h3>
+                                <img class="contents-img" src="img/contents1.png" alt="全手順まとめ動画">
+                                <div class="text">
+                                    <p>
+                                        プログラミングを始めるために大切な<br>
+                                        『環境構築』。
+                                    </p>
+                                    <p>
+                                        テキストエディタ「VS Code」の
+                                        インストール方法や作業の効率化に必須の拡張機能を全10個以上を紹介してます！
+                                    </p>
+                                    <p>
+                                        この25分の動画さえ見れば、正しく
+                                        コーディングに取り掛かることができます！
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <h3>
+                                    <span class="num">02</span>
+                                    <br>
+                                    <span class="small">【頻出順！全108個】</span>
+                                    <br>
+                                    HTMLで使うタグ完全解説PDF
+                                    <img class="emphasis-left" src="img/Group 221.png" alt="">
+                                    <img class="emphasis-right" src="img/Group 222.png" alt="">
+                                </h3>
+                                <img class="contents-img" src="img/contents2.png" alt="チートシート">
+                                <div class="text">
+                                    <p>
+                                        HTMLの全タグ108個を<br>
+                                        完全攻略できるチートシート!
+                                    </p>
+                                    <p>
+                                        実務でよく使うタグに関しては<br>
+                                        具体例、使い方も合わせて解説したから、<br>
+                                        これさえあればHTMLの基礎は完璧よ！
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <h3>
+                                    <span class="num">03</span>
+                                    <br>
+                                    <span class="small">【頻出順！全249個】</span>
+                                    <br>
+                                    CSSで使うプロパティ<br>
+                                    完全解説PDF
+                                    <img class="emphasis-left" src="img/Group 221.png" alt="">
+                                    <img class="emphasis-right" src="img/Group 222.png" alt="">
+                                </h3>
+                                <img src="img/contents3.png" alt="完全解説PDF">
+                                <div class="text">
+                                    <p>
+                                        CSS全249個のプロパティをまとめた<br>
+                                        チートシート！
+                                    </p>
+                                    <p>
+                                        頻出順にランク分けしてまとめて、<br>
+                                        重要なプロパティには具体例も交えて<br>
+                                        解説してあります。
+                                    </p>
+                                    <p>
+                                        CSSは具体例とイメージさえ掴めば、<br>
+                                        暗記はほぼ不要なので<br>
+                                        このテキストで理解しよ！
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <h3>
+                                    <span class="num">04</span>
+                                    <br>
+                                    <span class="small">【超頻出！Web制作では欠かせない】</span>
+                                    <br>
+                                    jQuery神コピペシート
+                                    <img class="emphasis-left" src="img/Group 221.png" alt="">
+                                    <img class="emphasis-right" src="img/Group 222.png" alt="">
+                                </h3>
+                                <img src="img/contents4.png" alt="jQuery神コピペシート">
+                                <div class="text">
+                                    <p>
+                                        JavaScriptとjQueryの違いや<br>
+                                        実装方法の基礎部分から<br>
+                                        実際のコードまでまとめたよ！
+                                    </p>
+                                    <p>
+                                        実案件でよく使う「スムーススクロール」や
+                                        「ハンバーガーメニュー」などが
+                                        コピペでも使えるようにまとめました。
+                                    </p>
+                                    <p>
+                                        これさえあればjQueryの大部分は完璧よ！
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <h3>
+                                    <span class="num">05</span>
+                                    <br>
+                                    <span class="small">【知らないと損する！】</span>
+                                    <br>
+                                    模写コーディングの<br>
+                                    やり方徹底解剖動画
+                                    <img class="emphasis-left" src="img/Group 221.png" alt="">
+                                    <img class="emphasis-right" src="img/Group 222.png" alt="">
+                                </h3>
+                                <img src="img/contents5.png" alt="やり方徹底解剖動画">
+                                <div class="text">
+                                    <p>
+                                        模写コーディングの基礎を<br>
+                                        約6分の動画で徹底解説！
+                                    </p>
+                                    <p>
+                                        まだ模写コーディングをやってない方、<br>
+                                        模写コーディングで学習が詰まってる方は
+                                    </p>
+                                    <p>
+                                        今の学習方法が合ってるかの確認で<br>
+                                        必ず見て！
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <h3>
+                                    <span class="num">06</span>
+                                    <br>
+                                    <span class="small">【9割が知らない！】</span>
+                                    <br>
+                                    模写コーディングの<br>
+                                    3つの極意
+                                    <img class="emphasis-left" src="img/Group 221.png" alt="">
+                                    <img class="emphasis-right" src="img/Group 222.png" alt="">
+                                </h3>
+                                <img class="contents-img2" src="img/contents6.png" alt="極意">
+                                <div class="text">
+                                    <p>
+                                        模写コーディングで必ず意識してほしいコトを厳選して３つに絞って解説！
+                                    </p>
+                                    <p>
+                                        ✔️模写コーディングが思うように進まない、<br>
+                                        ✔️詰まっていてモチベーションが下がってる方は
+                                    </p>
+                                    <p>
+                                        このポイントを意識してやってみて！
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <h3>
+                                    <span class="num">07</span>
+                                    <br>
+                                    <span class="small">【本当は教えたくない！】</span>
+                                    <br>
+                                    案件獲得、稼ぎ方の教科書
+                                    <img class="emphasis-left" src="img/Group 221.png" alt="">
+                                    <img class="emphasis-right" src="img/Group 222.png" alt="">
+                                </h3>
+                                <img class="contents-img" src="img/contents7.png" alt="教科書">
+                                <div class="text">
+                                    <p>
+                                        案件獲得、収入を得るには<br>
+                                        プログラミングスキルだけでは不完全！
+                                    </p>
+                                    <p>
+                                        案件獲得の方法も知らないと<br>
+                                        全部の学習が無駄になっちゃう。。
+                                    </p>
+                                    <p>
+                                        なので案件サイトの使い方や案件獲得方法をまとめたのでこれを参考に動いてみて！
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <h3>
+                                    <span class="num">08</span>
+                                    <br>
+                                    <span class="small">【最速でスキル習得！】</span>
+                                    <br>
+                                    プログラミング完全攻略<br>
+                                    ロードマップ
+                                    <img class="emphasis-left" src="img/Group 221.png" alt="">
+                                    <img class="emphasis-right" src="img/Group 222.png" alt="">
+                                </h3>
+                                <img class="contents-img" src="img/contents8.png" alt="ロードマップ">
+                                <div class="text">
+                                    <p>
+                                        プログラミングで案件獲得するための<br>
+                                        『未経験→案件獲得までにやるべきこと』をまとめたよ！
+                                    </p>
+                                    <p>
+                                        このステップ通りにやれば、<br>
+                                        回り道をせずに最短で案件獲得まで行けるので、必ず参考にして！
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="bubble">＼　プログラミングをより効率的に学習しよう　／</p>
+                    <button class="line-btn">
+                        <span>LINE追加はこちら</span>
+                        <img src="img/Arrow 1.svg" alt="矢印">
+                    </button>
+                    <div class="point">
+                        <p class="now">さらに、今なら<br>
+                            （or毎月５０名様限定で）
+                        </p>
+                        <h3>
+                            豪華特典
+                            <span class="a">豪華特典</span>
+                            <span class="b">豪華特典</span>
+                        </h3>
+                        <img class="point-img" src="img/point.png" alt="POINT">
+                        <img class="material1" src="img/kirakira1.png" alt="">
+                        <img class="material2" src="img/kirakira2.png" alt="">
+                        <ul>
+                            <li>
+                                <img class="material3" src="img/kirakira2.png" alt="">
+                                <h4>
+                                    <div class="ribbon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="385" height="64"
+                                            viewBox="0 0 385 64" fill="none">
+                                            <path
+                                                d="M368.19 32.3748L383.374 62.4238H1V1.42383H383.374L368.19 31.4728L367.962 31.9238L368.19 32.3748Z"
+                                                fill="#F8FFFF" stroke="#333333" stroke-width="2" />
+                                        </svg>
+                                        <p>
+                                            <span>特典①</span>電話カウンセリング
+                                        </p>
+                                    </div>
+                                </h4>
+                                <div class="text">
+                                    <img src="img/present1.png" alt="電話カウンセリング画像">
+                                    <p>
+                                        これマジで大切です！！
+                                    </p>
+                                    <p>
+                                        電話カウンセリングでは30分〜1時間ほどで
+                                        現在の学習の悩み相談や<br>
+                                        効率の良い学習方法の提示などを
+                                    </p>
+                                    <p>
+                                        ”あなたに合わせてプランニング”<br>
+                                        しています。
+                                    </p>
+                                    <p>
+                                        実際にあなたの声を聞いて状況も把握でき、
+                                        あなたに合わせた学習スケジュールが
+                                        立てれるので、
+                                    </p>
+                                    <p>
+                                        無理なく学習していくのに必須です！
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <img class="material4" src="img/kirakira2.png" alt="">
+                                <img class="material5" src="img/kirakira2.png" alt="">
+                                <img class="material6" src="img/kirakira3.png" alt="">
+                                <h4>
+                                    <div class="ribbon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="385" height="64"
+                                            viewBox="0 0 385 64" fill="none">
+                                            <path
+                                                d="M368.19 32.3748L383.374 62.4238H1V1.42383H383.374L368.19 31.4728L367.962 31.9238L368.19 32.3748Z"
+                                                fill="#F8FFFF" stroke="#333333" stroke-width="2" />
+                                        </svg>
+                                        <p>
+                                            <span>特典②</span>公式LINEで個別相談
+                                        </p>
+                                    </div>
+                                </h4>
+                                <div class="text">
+                                    <img src="img/present2.png" alt="個別相談画像">
+                                    <p>
+                                        LINEチャットでの相談も可能です！
+                                    </p>
+                                    <p>
+                                        わからない所の悩み解決や<br>
+                                        モチベーション維持、<br>
+                                        プレゼントの配布をここでやっていきます。
+                                    </p>
+                                    <p>
+                                        その他、受講生の実績や<br>
+                                        サポート生の声も見れるので、
+                                    </p>
+                                    <p>
+                                        どんな作品が作れるようになるかの<br>
+                                        イメージもつけれるよ！
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <img class="material7" src="img/kirakira4.png" alt="">
+                                <img class="material8" src="img/kirakira5.png" alt="">
+                                <img class="material9" src="img/kirakira2.png" alt="">
+                                <img class="material10" src="img/kirakira2.png" alt="">
+                                <h4>
+                                    <div class="ribbon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="385" height="64"
+                                            viewBox="0 0 385 64" fill="none">
+                                            <path
+                                                d="M368.19 32.3748L383.374 62.4238H1V1.42383H383.374L368.19 31.4728L367.962 31.9238L368.19 32.3748Z"
+                                                fill="#F8FFFF" stroke="#333333" stroke-width="2" />
+                                        </svg>
+                                        <p>
+                                            <span>特典③</span>不定期配信！㊙︎動画
+                                        </p>
+                                    </div>
+                                </h4>
+                                <div class="text">
+                                    <img src="img/present3.png" alt="ついに">
+                                    <p>
+                                        不定期で様々なプレゼントや<br>
+                                        あなたのプログラミング学習の手助けになる動画を配信！
+                                    </p>
+                                    <p>
+                                        内容はその時々によって異なっていたり、
+                                        期間限定のものもあるので<br>
+                                        見逃さないように待ってて！
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="LINE">
+                <h2>LINE<span>追加方法</span></h2>
+                <div class="wrapper">
+                    <ul>
+                        <li>
+                            <h3>Step1 _________________</h3>
+                            <p class="text">“LINE追加はこちら”ボタンをタップする</p>
+                            <button class="line-btn">
+                                <span>LINE追加はこちら</span>
+                                <img src="img/Arrow 1.svg" alt="矢印">
+                            </button>
+                            <p class="caution">※このボタンをタップすると、公式LINEの追加画面に移動します。</p>
+                        </li>
+                        <li>
+                            <h3>Step2 _________________</h3>
+                            <p class="text">公式LINEで簡単な質問に答える</p>
+                            <img class="step-img" src="img/step2.png" alt="LINE-image">
+                            <p class="caution">適切なアドバイスをするために、ご職業や学習目的、レベル感などをお聞きします。</p>
+                        </li>
+                        <li>
+                            <h3>Step3 _________________</h3>
+                            <p class="text">回答後にテキストをお渡しします！</p>
+                            <img class="step-img" src="img/step3.png" alt="LINE-image">
+                            <p class="caution">テキスト配布からは手動で返信させていただくので、待ち時間はご了承ください。</p>
+                        </li>
+                    </ul>
+                    <p class="bubble">＼　プログラミングをより効率的に学習しよう　／</p>
+                    <button class="line-btn">
+                        <span>LINE追加はこちら</span>
+                        <img src="img/Arrow 1.svg" alt="矢印">
+                    </button>
+                </div>
+            </section>
+            <section class="voice">
+                <h2>卒業生の作品・声</h2>
+                <div class="wrapper">
+                    <div class="swiper">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide">
+                                <img src="img/product1.png" alt="ゆりこさん">
+                            </li>
+                            <li class="swiper-slide">
+                                <img src="img/product2.png" alt="りょうたさん">
+                            </li>
+                            <li class="swiper-slide">
+                                <img src="img/product3.png" alt="あつこさん">
+                            </li>
+                            <li class="swiper-slide">
+                                <img src="img/product4.png" alt="ちさとさん">　
+                            </li>
+                            <li class="swiper-slide">
+                                <img src="img/product5.png" alt="のぞみさん">
+                            </li>
+                            <li class="swiper-slide">
+                                <img src="img/product6.png" alt="ゆいなさん">
+                            </li>
+                            <li class="swiper-slide">
+                                <img src="img/product7.png" alt="よしのりさん">
+                            </li>
+                        </ul>
+                    </div>
+                            <p class="etc">その他にも、</p>
+                            <ul class="lists">
+                                <li class="list2 list">
+                                    <div class="summary">
+                                        <div class="name">
+                                            <img class="icon" src="img/yuriko.png" alt="">
+                                            <h3>ゆりこ<span>さん/29歳/会社員</span></h3>
+                                        </div>
+                                        <img class="LP-image1" src="img/LP_item1.png" alt="">
+                                        <button class="view-btn toggleTextButton2">
+                                            <span class="displayText2">＋ 体験談を見る</span>
+                                        </button>
+                                    </div>
+                                    <div class="answer">
+                                        <h4>体験談</h4>
+                                        <p>
+                                            子供が生まれてから、家でもできる仕事を探していた時にプログラミングを知り、勉強を始めました。ただ、独学だと理解できない所で止まってしまったりしてなかなか進まなかったです。
+                                        </p>
+                                        <p>
+                                            インスタでカカシさんを見つけて相談に乗ってもらった所、自分の今の現在地や、学習についてアドバイスをとても親切に教えていただきました。
+                                        </p>
+                                        <p>
+                                            今は勉強も進み、案件を3つほど取ることができました。これもかかしさんたちのおかげです！まだまだ勉強は必要なので、これからも頑張っていこうと思います。
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="list2 list">
+                                    <div class="summary">
+                                        <div class="name">
+                                            <img class="icon" src="img/kaito.png" alt="">
+                                            <h3>かいと<span>さん/32歳/営業</span></h3>
+                                        </div>
+                                        <img class="LP-image1" src="img/LP_item1.png" alt="">
+                                        <button class="view-btn toggleTextButton2">
+                                            <span class="displayText2">＋ 体験談を見る</span>
+                                        </button>
+                                    </div>
+                                    <div class="answer">
+                                        <h4>体験談</h4>
+                                        <p>
+                                            手に職ではないですが、今後のためにスキルを身に付けたいと思いプログラミングを始めてみようと思いましたが、
+                                        </p>
+                                        <p>
+                                            一人では右も左も変わらない状態だったので、かかしさんに相談をしてみようと思いました。
+                                        </p>
+                                        <p>
+                                            今自分に必要な環境、学習方法など
+                                            とても丁寧に教えていただけてとても満足しています。
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <p class="bubble">＼　プログラミングをより効率的に学習しよう　／</p>
+                            <button class="line-btn">
+                                <span>LINE追加はこちら</span>
+                                <img src="img/Arrow 1.svg" alt="">
+                            </button>
+
+                </div>
+            </section>
+            <section class="result">
+                <h2>なぜここまで結果が出るのか？</h2>
+                <div class="wrapper">
+                    <img src="img/result.png" alt="result">
+                    <ul>
+                        <li>
+                            <p>
+                                <span class="yellow-marker">
+                                    圧倒的に一人一人と向き合う密度が濃いから
+                                </span>
+                                です。
+                            </p>
+                            <p>
+                                LINE特典でもそうですが、<br>
+                                1-1で電話カウンセリングをしたり、
+                            </p>
+                            <p>
+                                学習サポートでは週１定例で1-1で授業、<br>
+                                プログラミングだけでなく案件獲得、<br>
+                                案件のサポートまで。
+                            </p>
+                            <p>
+                                <span class="yellow-marker">
+                                    個人が自立できるように<br>
+                                    完全にサポートしています。
+                                </span>
+                            </p>
+                            <p>
+                                ここまでやるのにも”ある理由”があります。
+                            </p>
+                            <p>
+                                世の中にある多くのプログラミングスクールが<br>
+                                利益目的にしか重きを置いていないから。
+                            </p>
+                            <p>
+                                <span class="font-size">
+                                    「スクールに通ったけど<br>
+                                    できるようにならなかったです」
+                                </span>
+                            </p>
+                            <p>
+                                <span class="font-size">
+                                    「案件獲得までできませんでした」
+                                </span>
+                            </p>
+                            <p>
+                                このような方に
+                                <span class="yellow-marker">
+                                    高額なスクール費用を払って、<br>
+                                    精神的にも苦しんでる方を多くみてきました。
+                                </span>
+                            </p>
+                            <p>
+                                もうそんな方を生み出したくない。<br>
+                                個人で自立して理想を叶える方を増やしたい。
+                            </p>
+                            <p>
+                                そんな思いがあるからこそ、<br>
+                                結果にこだわってやっているからこその結果です。
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="QA">
+                <h2>
+                    <span>
+                        Q&A<br>
+                    </span>
+                    よくある質問
+                </h2>
+                <div class="wrapper">
+                    <details class="accordion-003 details">
+                        <summary class="summary4">
+                            <div class="toggle-btn"></div>
+                            <span class="num">Q1.</span>まだ学習を始めていませんが大丈夫ですか？
+                        </summary>
+                        <div class="answer4">
+                            <p class="answerInner">
+                                むしろ未経験者の人のほうが多いです。
+                                パソコンの選び方や学習スケジュールなど、0からでもできるようなサポートをしています。
+                            </p>
+                        </div>
+                    </details>
+                    <details class="accordion-003 details">
+                        <summary class="summary4">
+                            <div class="toggle-btn"></div>
+                            <span class="num">Q2.</span>パソコンが苦手ですが大丈夫ですか？
+                        </summary>
+                        <div class="answer4">
+                            <p class="answerInner">
+                                実を言うと、かかし本人もプログラミングを始めるまではパソコンをほぼ触ったことがない人だったので、大丈夫です！
+                            </p>
+                        </div>
+                    </details>
+                    <details class="accordion-003 details">
+                        <summary class="summary4">
+                            <div class="toggle-btn"></div>
+                            <span class="num">Q3.</span>テキストはどんな内容ですか？
+                        </summary>
+                        <div class="answer4">
+                            <p class="answerInner">
+                                詳しくは上に書いてありますが、勉強のコツや考え方、基礎基本、案件獲得までの方法、重要ポイントなどが約70ページに渡り記載しております。
+                            </p>
+                        </div>
+                    </details>
+                    <details class="accordion-003 details">
+                        <summary class="summary4">
+                            <div class="toggle-btn"></div>
+                            <span class="num">Q4.</span>どんなサポートをしてくれるんですか？
+                        </summary>
+                        <div class="answer4">
+                            <p class="answerInner">
+                                プログラミングの習得に近づくテキストを提供させていただき、公式LINEにて質問対応などのLINEサポートをさせていただいております。
+                            </p>
+                        </div>
+                    </details>
+                    <details class="accordion-003 details">
+                        <summary class="summary4">
+                            <div class="toggle-btn"></div>
+                            <span class="num">Q5.</span>個人情報は守られますか？
+                        </summary>
+                        <div class="answer4">
+                            <p class="answerInner">
+                                皆様が普段使用されているLINEが運営するサービスを使用しているので、漏洩は一切ありません。
+                            </p>
+                        </div>
+                    </details>
+                    <details class="accordion-003 details">
+                        <summary class="summary4">
+                            <div class="toggle-btn"></div>
+                            <span class="num">Q6.</span>何か登録する必要はありますか？
+                        </summary>
+                        <div class="answer4">
+                            <p class="answerInner">
+                                公式LINEに登録していただきます。
+                                （飲食店も使用しているサービスなので、個人情報が漏洩することは一切ありません。）
+                        </div>
+                    </details>
+                    <details class="accordion-003 details">
+                        <summary class="summary4">
+                            <div class="toggle-btn"></div>
+                            <span class="num">Q7.</span>誰でもできるようになりますか？
+                        </summary>
+                        <div class="answer4">
+                            <p class="answerInner">
+                                申し訳ありませんが、誰でもは厳しいです。というのも「楽してスキルを身につけたい」や「なんとなく」など、本気でスキルを身につけたいと思っていない方はできません。
+                                <span class="red">「本気で身につけたい」という想い、覚悟は必要</span> です。
+                            </p>
+                        </div>
+                    </details>
+                    <details class="accordion-003 details">
+                        <summary class="summary4">
+                            <div class="toggle-btn"></div>
+                            <span class="num">Q8.</span>お金はかかりますか？
+                        </summary>
+                        <div class="answer4">
+                            <p class="answerInner">
+                                0→1テキストは無料ですが、ご希望の方には有料のサポートもご用意しています。現在（2024/4月）までで280名の方をサポートしています。気になる方は、公式LINEにてご質問ください。
+                            </p>
+                        </div>
+                    </details>
+                    <p class="bubble">＼　プログラミングをより効率的に学習しよう　／</p>
+                    <button class="line-btn">
+                        <span>LINE追加はこちら</span>
+                        <img src="img/Arrow 1.svg" alt="">
+                    </button>
+                </div>
+            </section>
+            <section class="study-hard">
+                <h2>スキル習得には努力は大前提です</h2>
+                <div class="wrapper">
+                    <img src="img/hard.png" alt="努力">
+                    <div class="text">
+                        <p>
+                            <span class="yellow-marker">
+                                「スキル習得のために努力する」ことは大前提
+                            </span>
+                            です。
+                        </p>
+                        <p>
+                            お配りするプレゼントや特典も<br>
+                            本気で作りましたし、学習を頑張ってる方に<br>
+                            受け取ってもらいたいです。
+                        </p>
+                        <p>
+                            なので、叶えたい理想があるのに<br>
+                            <span class="yellow-marker">
+                                行動しない、意思がない、言い訳をするなど<br>
+                                そんな方のために<br>
+                                やっているわけではありません。
+                            </span>
+                        </p>
+                        <p>
+                            ✔️どれだけ勉強が苦手でも構いません<br>
+                            ✔️どれだけ記憶力がなくても構いません<br>
+                            ✔️どれだけパソコンが苦手でも構いません<br>
+                        </p>
+                        <p>
+                            <span class="yellow-marker">
+                                必ず私たちが救います。
+                            </span>
+                        </p>
+                        <p>
+                            「本気でスキル習得する」という<br>
+                            意思のある方に本気で向き合うので、<br>
+                            そんな方をお待ちしております。
+                        </p>
+                    </div>
+                    <p class="kakashi">かかし</p>
+                    <p class="bubble">＼　プログラミングをより効率的に学習しよう　／</p>
+                    <button class="line-btn">
+                        <span>LINE追加はこちら</span>
+                        <img src="img/Arrow 1.svg" alt="">
+                    </button>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>kakashi</p>
+        </footer>
+    </div>
+    <script src="js/jQuery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
